@@ -1,0 +1,75 @@
+End User License Agreement (EULA)
+
+AOMEI Partition Assistant Standard Edition
+END-USER LICENSE AGREEMENT
+Copyright (c) 2009-2021 AOMEI International Network Limited, All rights reserved.
+
+
+IMPORTANT–READ CAREFULLY: This End-User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) later referred to as "LICENSEE" and AOMEI International Network Limited. later referred to as "AOMEI" for the product AOMEI Partition Assistant Standard Edition later referred to as "SOFTWARE". By installing, copying, or otherwise using the SOFTWARE, you agree to be bound by the terms of this EULA. If you do not agree to the terms of this EULA, do not install, copy or use the SOFTWARE. Installing and using the SOFTWARE signifies acceptance of these terms and conditions of the license.
+
+AOMEI may have patents, patent applications, trademarks, copyrights, or other intellectual property rights covering subject matter in this EULA. The furnishing of this document does not give you any license to these patents, trademarks, copyrights, or other intellectual property.
+
+Copyright laws and international copyright treaties, as well as other intellectual property laws and treaties protect the SOFTWARE. The SOFTWARE is licensed, not sold.
+
+
+1. GRANT OF LICENSE.
+
+1.1 The SOFTWARE is only free for personal or home computer usage. LICENSEE has the right to install, load and use the SOFTWARE on multiple computers, with no intention to gain commercial advantage or monetary compensation.
+
+1.2 The SOFTWARE may be freely distributed, if the distribution package is not modified. No person or company may charge a fee for the distribution of this SOFTWARE without written permission from the copyright holder.
+
+
+2. LIMITATIONS.
+
+2.1 LICENSEE may not reverse engineer, recompile, and disassembly, modify, translate the SOFTWARE and make any attempt to discover the source code of the SOFTWARE.
+
+2.2 LICENSEE may not transfer, sell, re-sell, offer for sale or distribute the SOFTWARE. The sale of and/or distribution of copies of this SOFTWARE are strictly forbidden. It is a violation of this EULA to sell, loan, rent, lease, borrow, or transfer the use of copies of the SOFTWARE except if it's permitted by the terms and conditions of a separate agreement signed by AOMEI.
+
+2.3 LICENSEE may use this SOFTWARE in compliance with all applicable laws and not for any unlawful purpose. Without limiting the foregoing, use, display or distribution of this SOFTWARE together with material that is pornographic, racist, vulgar, obscene, defamatory, libelous, abusive, promoting hatred, discriminating or displaying prejudice based on religion, ethnic heritage, race sexual orientation or age is strictly prohibited.
+
+
+3. GDPR PRIVACY NOTICE
+
+This Notice is designed to help LICENSEE understand what information we collect or process about LICENSEE and what we do with this information when LICENSEE use the SOFTWARE.
+
+3.1 Automatically Collected and Transmitted Information (“Collected Information”)
+
+In order to understand our user's needs, and deliver better products and services to our user, we add User Experience (UX) Improvement Program into the SOFTWARE. The program is voluntary. LICENSEE may join the program by manually checking the box during SOFTWARE installation, and opt out the program at any time by unchecking the box from Settings » User experience improvement. If LICENSEE choose to join the program, the SOFTWARE collects from LICENSEE’s environment and automatically transmits to AOMEI’s Google Analytics account, which may include:
+
+l	The number of the SOFTWARE installed or uninstalled;
+l	The number of the functions of the SOFTWARE used;
+
+AOMEI collects anonymous information about how LICENSEE use the SOFTWARE. No personally identifiable information will be collected, like name, email, address, etc. If LICENSEE don’t join the User Experience (UX) Improvement Program, AOMEI don’t collect any information.
+
+3.2 How We Use Collected Information
+
+Collected Information will be used for the following purposes:
+
+l	Optimize the performance of the SOFTWARE;
+l	Internal research and development, including improving the SOFTWARE;
+l	Statistical analysis of the SOFTWARE deployment, including analysis of trends and comparisons in our aggregated install base
+
+3.3 How We Share Collected Information
+
+The Collected Information may be accessible by AOMEI employees on a need-to-know basis, exclusively to be used in accordance with the purposes described above.
+
+3.4 How We Protect Collected Information
+
+To protect the collected information, we have taken appropriate administrative, technical, physical and procedural security measures, consistent with international information practices.
+
+We take LICENSEE’s privacy very seriously. This Notice applies to LICENSEE’s use of the SOFTWARE. To view the complete online Privacy Policy that applies to LICENSEE’s use of our website, please visit www.diskpart.com/privacy.html.
+
+
+4. DISCLAIMER OF WARRANTY.
+
+THE SOFTWARE IS DISTRIBUTED "AS IS". NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED. YOU USE AT YOUR OWN RISK. AOMEI WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE.
+
+
+5. SOFTWARE SUPPORT.
+
+Support will only be provided via e-mail. Queries regarding the installation and use of the SOFTWARE should be submitted via e-mail to support@aomeitech.com. If you have questions about buying or updating our products, please email us at sales@aomeitech.com.
+
+
+6. RESERVATION.
+
+From time to time AOMEI may, in our sole discretion update or modify this EULA. AOMEI reserves all rights that are not expressly granted to you in this EULA.

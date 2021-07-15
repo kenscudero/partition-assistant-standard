@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+	<id>partition-assistant-standard</id>
+	<version>9.3</version>
+	<title>AOMEI Partition Assistant Standard (Install)</title>
+	<authors>AOMEI</authors>
+	<owners>chocolatey-community</owners>
+	<licenseUrl>https://www.diskpart.com/terms.html</licenseUrl>
+	<projectUrl>https://www.aomeitech.com/pa/standard.html</projectUrl>
+	<iconUrl>https://www.aomeitech.com/s-download?filename=../assets/images/download_LOGO/PA_1.png</iconUrl>
+	<requireLicenseAcceptance>true</requireLicenseAcceptance>
+	<description>AOMEI Partition Assistant Standard allows you to realize disk upgrade/replacement, partition style conversion, OS migration and other disk managements without any difficulties.</description>
+	<summary>AOMEI Partition Assistant Standard allows you to realize disk upgrade/replacement, partition style conversion, OS migration and other disk managements without any difficulties.</summary>
+ 	<releaseNotes>https://www.diskpart.com/changelog.html</releaseNotes>
+	<copyright>Copyright 2009-2021 AOMEI International Network Limited. All rights reserved.</copyright>
+	<tags>parition-assistant-standard disk drive image partition clone hdd</tags>
+	<packageSourceUrl>https://github.com/kenscudero/partition-assistant-standard</packageSourceUrl>
+	<docsUrl>https://www.diskpart.com/manual.html</docsUrl>
+	<bugTrackerUrl>https://www.aomeitech.com/support.html</bugTrackerUrl>
+	<dependencies>
+	  <dependency id="chocolatey-core.extension" version="1.3.3" />
+	</dependencies>
+  </metadata>
+  <files>
+	<!-- this section controls what actually gets packaged into the Chocolatey package -->
+	<file src="tools\**" target="tools" />
+	<!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
