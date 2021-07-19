@@ -5,11 +5,11 @@ if ( -not ( Test-Path -Path "$env:ProgramData\Chocolatey" ) ) {
 
 import-module au
 
-$domain			= 'https://www.diskpart.com'
-$releases		= $domain + '/download-home.html'
+$domain		= 'https://www.diskpart.com'
+$releases	= $domain + '/download-home.html'
 
 $regexFileType	= '\.' + 'exe'
-$applBits		= '32'
+$applBits	= '32'
 $applFilePath	= '/download/pa/'
 
 function global:au_SearchReplace {
