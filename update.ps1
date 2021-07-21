@@ -23,26 +23,28 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-	Write-Verbose "releases=$releases"
+	$myFuncName = $MyInvocation.MyCommand
+	Write-Verbose "$($myFuncName):releases=$releases"
 	$download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-	Write-Verbose "download_page=$download_page"
-	Write-Verbose "regexFileType=$regexFileType"
-	Write-Verbose "applBits=$applBits"
+	Write-Verbose "$($myFuncName):download_page=$download_page"
+	Write-Verbose "$($myFuncName):regexFileType=$regexFileType"
+	Write-Verbose "$($myFuncName):applBits=$applBits"
 	$p = ( "$download_page.Links".split('<').split('>') | Select-String -Pattern $regexFileType )
-	Write-Verbose "p=$p"
+	Write-Verbose "$($myFuncName):p=$p"
 	$p = "$p".split(' ') | Select-String -Pattern $regexFileType
-	Write-Verbose "p=$p"
+	Write-Verbose "$($myFuncName):p=$p"
 	$ub = $applBits
-	Write-Verbose "ub = $($ub)"
+	Write-Verbose "$($myFuncName):ub = $($ub)"
 	$filetype = ( ( Split-Path ( ( "$p".ToUpper().split('"') -match('\.' ) )[0] ) -leaf ).split('.') )[-1]
-	Write-Verbose "filetype = $($filetype)"
+	Write-Verbose "$($myFuncName):filetype = $($filetype)"
 	$url = ( ( "$p".split('"') -match $filetype.ToLower() ) -match $applFilePath.ToLower() )[0]
-	Write-Verbose "url = $($url)"
+	Write-Verbose "$($myFuncName):url = $($url)"
 	$version = ( ( "$download_page.Links".split('"').ToLower() ).split('</i>') ) -match ' v[0-9]'
-	Write-Verbose "version = $($version)"
+	Write-Verbose "$($myFuncName):version = $($version)"
 	$version = ( "$version".split('>').split('v') )[-1]
-	Write-Verbose "version = $($version)"
+	Write-Verbose "$($myFuncName):version = $($version)"
 	$s ="URL$applBits = '$($url)'; Version = '$($version)'; FileType = '$($filetype)';"
+	Write-Verbose "$($myFuncName):s=$s"
 	Invoke-Expression "@{ $s }"
 }
 
