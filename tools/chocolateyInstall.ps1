@@ -5,7 +5,7 @@ $toolsDir	= "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageName	= 'partition-assistant-standard'
 $url		= 'https://www2.aomeisoftware.com/download/pa/PAssist_Std.exe'
 $fileType	= ( $(Split-Path -leaf $url) -split('\.') )[-1].ToUpper()
-$checksum	= '997AA6EDA9B9D91875C8A3464BA8AD65891315BD10067D58E23AD61E1910A5C5'
+$checksum	= '77FF884495E01A20B6E461CDB1ABFD97AD99344D1E232603A9454C64B3507661'
 
 $packageArgs = @{
   packageName		= $packageName
