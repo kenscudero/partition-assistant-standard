@@ -5,13 +5,13 @@ in verifying that this package's contents are trustworthy.
 The embedded software can be verified by doing the following:
 
 1. Download the following:
-  32-Bit software: <https://www2.aomeisoftware.com/download/pa/PAssist_Std.exe>
+   32-Bit software: <https://www2.aomeisoftware.com/download/pa/PAssist_Std.exe>
 2. Get the checksum using one of the following methods:
   - Using powershell function 'Get-FileHash'
   - Use chocolatey utility 'checksum.exe'
 3. The checksums should match the following:
 
   checksum type: sha256
-  checksum32: 997AA6EDA9B9D91875C8A3464BA8AD65891315BD10067D58E23AD61E1910A5C5
+  checksum32: 77ff884495e01a20b6e461cdb1abfd97ad99344d1e232603a9454c64b3507661
 
 The file 'LICENSE.txt' has been obtained from <https://www.diskpart.com/terms.html>
