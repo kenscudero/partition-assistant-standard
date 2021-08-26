@@ -3,13 +3,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
 	<id>partition-assistant-standard</id>
-	<version>9.3</version>
+	<version>9.4</version>
 	<title>AOMEI Partition Assistant Standard (Install)</title>
 	<authors>AOMEI</authors>
 	<owners>chocolatey-community</owners>
 	<licenseUrl>https://www.diskpart.com/terms.html</licenseUrl>
 	<projectUrl>https://www.aomeitech.com/pa/standard.html</projectUrl>
-	<iconUrl>https://www.aomeitech.com/s-download?filename=../assets/images/download_LOGO/PA_1.png</iconUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/kenscudero/partition-assistant-standard@main/images/AOMEI_Partition_Assistant.png</iconUrl>
 	<requireLicenseAcceptance>true</requireLicenseAcceptance>
 	<description>
 ___
